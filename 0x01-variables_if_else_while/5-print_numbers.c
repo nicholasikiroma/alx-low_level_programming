@@ -4,7 +4,7 @@
  * main - Entry point
  *
  * Description: print base 10 numbers
- * return: 0 for succes
+ * Return: 0 for success
  */
 
 int main(void)
@@ -12,6 +12,10 @@ int main(void)
 	int n;
 
 	for (n = 0; n <= 9; n++)
-		printf("%d/n", n);
+
+		printf("%d", n);
+
+	printf("/n");
+
 	return (0);
 }
