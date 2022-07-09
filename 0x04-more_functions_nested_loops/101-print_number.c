@@ -1,11 +1,9 @@
 #include "main.h"
-
 /**
  * print_number - Prints integer
  * @n: stores integar
  * Return: Integar
  */
-
 void print_number(int n)
 {
 	unsigned int num, con, p;
