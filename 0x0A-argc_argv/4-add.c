@@ -10,12 +10,12 @@
 int main(int argc, char *argv[])
 {
 	int sum = 0;
-	int i, dig = 0, n;
+	int i, dig;
 
 
 	for (i = 1; i < argc; i++)
 	{
-		for (n = 0; n < argc; n++)
+		for (dig = 0; dig < argc; dig++)
 		{
 			if (isdigit(argv[i][dig]) == 0)
 			{
